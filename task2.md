@@ -2,7 +2,6 @@
 Условие: Написать тест, который открывает веб-страницу https://playwright.dev/ и проверяет что заголовок страницы соответствует ожидаемому значению. Тест необходимо запустить минимум на 2 разных браузерах.
 Ожидаемый результат: Тест успешно проходящий проверку заголовка.
 
-## Запуск теста проверки заголовка страницы Playwright
 ```python
 from playwright.sync_api import sync_playwright
 expected_title = "Fast and reliable end-to-end testing for modern web apps | Playwright"
