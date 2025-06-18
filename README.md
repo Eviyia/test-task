@@ -1,6 +1,5 @@
 ## Запуск теста проверки заголовка страницы Playwright
 ```python
-# тут твой код, например:
 from playwright.sync_api import sync_playwright
 expected_title = "Fast and reliable end-to-end testing for modern web apps | Playwright"
 browsers = ["chromium", "firefox"]
